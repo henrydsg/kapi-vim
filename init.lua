@@ -6,5 +6,3 @@ require("user.mini")
 require("user.cmp")
 require("user.telescope")
 require("user.treesitter")
-
-require("hardtime").setup()
