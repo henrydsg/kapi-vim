@@ -26,6 +26,7 @@ local options = {
     foldmethod = "expr",
     foldexpr = "nvim_treesitter#foldexpr()",
     termguicolors = true,
+    colorcolumn = "80",
     virtualedit = "all", -- cursor can be placed anywhere
 }
 

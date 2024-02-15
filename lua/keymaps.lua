@@ -22,3 +22,4 @@ keymap("n", "<Leader>rf", function()
 end, opts)
 
 keymap("n", "<F2>", ":silent! source ./.session.vim<CR>", opts)
+keymap("v", "<Space>p", '"_dP', opts)
